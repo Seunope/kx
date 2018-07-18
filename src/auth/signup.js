@@ -2,9 +2,7 @@ import React, { Component } from "react";
 import { Text, TextInput, View, KeyboardAvoidingView, TouchableOpacity } from "react-native";
 import { Keyboard } from "react-native";
 import { H3, Toast, Button, Container, Content, Form, Label, Input, Item } from "native-base";
-// import { graphql } from "react-apollo";
 import { Mutation } from "react-apollo";
-
 import styles from "./style";
 import {userQuery, SIGNUP_MUTATION} from '../graph/mutations/signupMutation';
 
