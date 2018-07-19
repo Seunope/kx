@@ -6,6 +6,7 @@ import { Mutation } from "react-apollo";
 import styles from "./style";
 import {userQuery, SIGNUP_MUTATION} from '../graph/mutations/signupMutation';
 
+
 export default class LoginScreen extends Component {
   constructor(props) {
     super(props);
@@ -21,7 +22,6 @@ export default class LoginScreen extends Component {
       showToast: false
     };
     this.doSubmit = this.doSubmit.bind(this);
-
   }
   onInputTextChange = (text, type) => {
     this.setState({ [type]: text });
